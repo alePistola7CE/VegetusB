@@ -1,0 +1,632 @@
+/* LAYOUT FISSO */
+
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    /*background: url('images/backgroundp.png') #f0f1f0 no-repeat;*/
+    background: -webkit-linear-gradient(left top, rgba(189, 195, 199,0.85), rgba(236, 240, 241, 0)); /* Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, rgba(189, 195, 199,0.85), rgba(236, 240, 241, 0)); /* Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, rgba(189, 195, 199,0.85), rgba(236, 240, 241, 0)); /* Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, rgba(189, 195, 199,0.85), rgba(236, 240, 241, 0)); /* Standard syntax */
+}
+
+/* STILI GENERICI */
+
+h1,h2 {
+    color: black;
+    margin: 0;
+    padding: 0;
+    font-size: 2.5em;
+}
+
+a {
+    text-decoration: none;
+}
+
+hr{
+  margin-left: 7px;
+  border: 0.5px solid #000;
+}
+
+th {
+  padding: 5px 10px 5px 10px;
+  border-spacing: 0px;
+  font-size: 90%;
+  margin: 0px;
+  text-align: center;
+  background-color: #bdc3c7;
+}
+
+fieldset{
+  border: 1px solid rgba(54, 162, 235, 0.8);
+  border-radius: 5px;
+  margin: 10px;
+}
+
+legend{
+  text-transform: uppercase;
+}
+
+td{
+  border-bottom: none;
+  text-align: center;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* CONTENITORE GENERICO DEL SITO */
+
+#container {
+    max-width: 1200px;
+    width: 95%;
+    min-width: 360px;
+    margin: 15px auto 0 auto;
+    text-align: left;
+	  text-decorationcolor:black;
+}
+
+/* STILE PER LOGO */
+#logo{
+  margin-left: 7px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+}
+
+/* stili per il div topmenu */
+
+#topmenu {
+    background-color: #222222;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: right;
+    margin: 5px;
+}
+
+#topmenu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#topmenu li {
+    display: inline-block;
+    margin: 0 1em;
+    padding: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#topmenu a {
+    color:#FFF;
+    font: normal bold;
+}
+
+#topmenu a#actualpage {
+    color: rgba(46, 204, 113,1.0);
+    font: normal bold;
+}
+
+#topmenu li.icon {
+    display: none;
+}
+
+
+/* DIV HEADER */
+
+#header {
+    margin-bottom:25px;
+    padding: 5px;
+}
+
+/* STILI PER CONTENT */
+#content a {
+    color: #00F;
+}
+
+#content a:hover {
+    color: #f00;
+}
+
+/* STILE PER SOTTOTITOLO */
+p.subtitle {
+  font-size: 18px;
+  font-weight: bolder;
+  margin-left: 7px;
+}
+
+/* STILE PER DIAGRAM BLOCK*/
+.diagramblock {
+    margin: 10px 10px 20px 10px;
+    height: auto;
+    width: 53%;
+    padding:15px 20px 20px 15px;
+    float:left;
+    min-width: 250px;
+    display: block;
+}
+
+.yellow {
+    background:rgba(255, 206, 86, 0.5);
+}
+
+.blue {
+    background:rgba(54, 162, 235, 0.5);
+}
+
+.red {
+    background:rgba(255, 99, 132, 0.5);
+}
+
+
+/* STILI PER LE DUE COLONNE INTERNE AL FORM DI SELEZIONE */
+.col_sx{
+  float:left;
+  width:45%;
+  margin: 0, auto, 0 auto;
+}
+
+.col_dx{
+  float:left;
+  width: 55%;
+  text-align: right;
+  margin: 0, auto, 0 auto;
+}
+
+/* stile per aiuto del form */
+p.hint {
+  font-style: italic;
+  font-weight: lighter;
+  font-size: 60%;
+}
+
+/* STILE PER CONTENITORE GRAFICI E GRAFICI */
+#contenitore_grafici{
+  width: 100%;
+  height: auto;
+  margin: 10px auto 10px auto;
+}
+
+#grafico_1{
+  float: left;
+  width: 50%;
+}
+
+#grafico_2{
+  float: left;
+  width: 50%;
+}
+
+/* STILE PER IL FOOTER */
+#footerWrap {
+  border-radius: 8px;
+  background-color:#222222;
+  padding:15px;
+  text-align: center;
+  max-width: 1200px;
+  width: 95%;
+  min-width: 360px;
+  margin: 15px auto 15px auto;
+}
+
+#footerWrap p {
+  color:#fff;
+}
+
+#footerWrap a {
+  color: rgba(46, 204, 113,1.0);
+}
+
+/*stile per citazione infondo al footer*/
+p.subFoot{
+  font-size:  12px;
+}
+
+
+
+/* INIZIO STILI PER PAGINA DATI */
+
+/* CONTENITORE TABELLA */
+#contenitore_table{
+  position:static;
+  clear:left;
+}
+
+/* STILE PER TABELLA */
+#tab_show {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  margin-left: 7px;
+  border-style: none;
+  border-spacing: 0px;
+  background-color: #fff;
+  border: 2px solid #000;
+  text-transform: uppercase;
+}
+
+/* INIZIO STILI PER PAGINA INFORMAZIONI */
+/* stile per div principale*/
+#informazioni {
+  width: 100%;
+  overflow: auto;
+}
+
+/* stile per divisione paragrafi */
+#informazioni hr{
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+/* STILE PER TITOLO E PARAGRAFO */
+
+#text h1{
+  text-transform: uppercase;
+  text-align: center;
+  color: #000;
+  letter-spacing: 0.02em;
+  word-spacing: 0.25em;
+  padding: 15px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+#text p{
+  font-size: 105%;
+  line-height: 1.6em;
+  font-weight: 10;
+  letter-spacing: 0.02em;
+  word-spacing: 0.30em;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  padding: 15px;
+  text-align: center;
+}
+
+/* STILE PER CONTENITORE VCARD e VCARD */
+
+#contenitore_vcard{
+  margin: 10px auto 10px auto;
+  width: 100%;
+  height: auto;
+  position: static;
+}
+
+.vcard {
+    background: #FFF;
+    box-shadow: 5px 5px 7px rgba(33,33,33,0.7);
+    margin: 13px;
+    max-width: 560px;
+    float: left;
+    width: 31%;
+    min-height: 400px;
+}
+
+.vcardtext {
+    padding: 20px 10px;
+    font-size: 80%;
+    font-weight: bold;
+    text-align: center;
+}
+
+.vcardtext li{
+  text-align: left;
+  font-size: 120%;
+  font-weight: normal;
+}
+
+/* STILE PER INPUT DELLE FORM */
+
+input[type=date] {
+    min-width: 150px;
+    max-width: 200px;
+    width: auto;
+    padding: 7px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+select {
+    min-width: 150px;
+    max-width: 200px;
+    width: auto;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 0.8em;
+    text-align: justify;
+}
+
+
+input[type=mail] {
+    width: 100%;
+    padding: 10px;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit] {
+    padding: 10px;
+    min-width: 20%;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    float: right;
+    background-color: rgba(236, 240, 241,1.0);
+    color: black;
+}
+
+input[type=submit]:hover{
+    text-decoration-style: solid;
+    background-color: rgba(189, 195, 199,1.0);
+    color: black;
+    border: 1px solid #ccc;
+}
+
+input[type=reset] {
+    padding: 10px;
+    min-width: 40%;
+    margin: 5px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* STILE PER LABEL SU PARAMETRI DELLA PAGINA DATI */
+
+div.seconda_riga_2 label {
+  vertical-align: top;
+}
+
+
+#grandezza_grafico1{
+  min-width: 550px;
+}
+
+#grandezza_grafico2{
+  min-width: 550px;
+}
+
+/* STILE PER RESPONSIVE */
+
+/* STILE PER SMARTPHONE */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+
+  html{
+    width: auto;
+    max-width: 480px;
+  }
+
+  /* LOGO PIU' PICCOLO E CENTRATO */
+  #logo {
+    height: 90px;
+    margin: 10px auto 10px auto;
+    display: block;
+  }
+
+  /* BARRA DI NAVIGAZIONE */
+  #topmenu {
+    margin-top: 25px;
+    margin-bottom: 30px;
+    font-size: 105%;
+    text-align: left;
+  }
+
+  #topmenu li{
+    padding: inherit 10px inherit 10px;
+    display: inline-block;
+    margin: 10px 10px 10px auto;
+  }
+
+  #topmenu li:not(:first-child) {
+      display: none;
+  }
+
+  #topmenu li.icon {
+      float: right;
+      display: inline-block;
+  }
+
+  #topmenu.responsive ul{
+    height: auto;
+    overflow: initial;
+  }
+
+  #topmenu.responsive li{
+    display: block;
+  }
+
+  #topmenu.responsive li.icon {
+    position: relative;
+    bottom: 100px;
+  }
+
+  /* SOTTOTITOLO PIU' PICCOLO, GIUSTIFICATO */
+  p.subtitle {
+    font-size: 18px;
+    text-align: justify;
+    font-weight: bold;
+    margin: 5px;
+  }
+
+  /* RENDO IL DIAGRAM FULL WIDTH */
+  .diagramblock {
+    margin: 10px auto 10px auto;
+    height: auto;
+    width: auto;
+    padding: 10px 15px 5px 10px;
+    display: block;
+    position: static;
+  }
+
+  /* Metto ogni elemento su una riga e aggiusto i valori */
+  div.col_sx{
+    display: block;
+    width: 90%;
+    position: static;
+    margin: 10px auto 0px auto;
+    float: none;
+    text-align: center;
+  }
+
+  div.col_dx {
+    display: block;
+    width: 90%;
+    position: static;
+    margin: 10px auto 10px auto;
+    float: none;
+    text-align: center;
+  }
+
+  div#prima_riga{
+    margin: 3px;
+    padding: 5px;
+  }
+
+  div#seconda_riga{
+    margin:3px;
+    padding:5px;
+  }
+
+  div#terza_riga{
+    margin: 10px 3px 3px 3px;
+    padding: 5px;
+    font-size: 130%;
+    border-top: 0.5px solid #000;
+  }
+
+  div#quarta_riga{
+    margin: 3px 3px 15px 3px;
+    padding: 5px;
+    font-size: 130%;
+    border-bottom: 0.5px solid #000;
+  }
+
+  div#prima_riga_1{
+    margin: 3px;
+    padding: 5px;
+  }
+
+  div#seconda_riga_2{
+    margin:3px;
+    padding:5px;
+  }
+
+  div#terza_riga_3{
+    display: none;
+  }
+
+  div#quarta_riga_4{
+    text-align: center;
+    margin: 20px 3px -3px 3px;
+    padding: 5px;
+    font-size: 130%;
+  }
+
+  /* STILE DELLE LABEL NEL FORM */
+  label {
+    text-align: left;
+    font-size: 150%;
+  }
+
+  input[type="date"]{
+    text-align: center;
+    width: 100%;
+  }
+
+  input[type=submit]{
+    float: none;
+    width: 35%;
+  }
+
+  select{
+    width: 100%;
+  }
+
+  #grafico_1{
+    float: none;
+    width: 100%;
+  }
+
+  #grafico_2{
+    float: none;
+    width: 100%;
+  }
+
+  /* per adesso la grandezza minima dei grafici è 320px (come l'iPhone5) per ottimizzare è meglio modificare l'id per ogni 100 px con media query */
+  #grandezza_grafico1{
+    min-width: 320px;
+    display: block;
+    margin: 20px 20px 0px auto;
+  }
+
+  #grandezza_grafico2{
+    min-width: 320px;
+    display: block;
+    margin: 20px 20px 15px auto;
+  }
+
+}
+/*
+@media screen and (max-width:680px) {
+
+    #topmenu li:not(:first-child) {
+        display: none;
+    }
+
+    #topmenu li.icon {
+        float: right;
+        display: inline-block;
+    }
+
+}*/
+
+/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
+ * This class makes the topnav look good on small screens
+@media screen and (max-width:680px) {
+
+    #topmenu.responsive {
+        position: relative;
+    }
+
+    #topmenu.responsive li.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    #topmenu.responsive li {
+        float: none;
+        display: inline;
+    }
+
+    #topmenu.responsive li a {
+        display: block;
+        text-align: left;
+    }
+
+}
+*/
