@@ -67,7 +67,7 @@ a:hover {
 
 #container {
     max-width: 1200px;
-    width: 95%;
+    width: 98%;
     min-width: 360px;
     margin: 15px auto 0 auto;
     text-align: left;
@@ -628,23 +628,94 @@ div.seconda_riga_2 label {
   #footer_text p.subFoot{
     font-size: 10px;
   }
+
+  /* STILI PER PAGINA "DATI" */
+  #contenitore_table{
+    width: 98%;
+    margin: 5px auto 5px auto;
+  }
+
+  #tab_show{
+    margin: 15px auto 20px auto;
+    width: 98%;
+  }
+
+  /* STILI PER PAGINA "INFORMAZIONI" */
+  .vcard{
+    float: none;
+    display: inline-block;
+    width: 95%;
+    margin-bottom: 15px;
+  }
 }
 
-  /* PER UNA MIGLIORE USER EXPERIENCE DA CELLULARE ALLARGO I GRAFICI AL MASSIMO POSSIBILE */
-/*@media only screen and (min-width: 360px) {
+/* PER UNA MIGLIORE USER EXPERIENCE DA CELLULARE ALLARGO I GRAFICI AL MASSIMO POSSIBILE */
+
+@media only screen and (min-width: 320px) and (max-width: 359px) {
 
   #grandezza_grafico1{
-    min-width: 360px;
+    max-width: 320px;
     display: block;
     margin: 20px auto 0px auto;
     padding: 0px;
   }
 
   #grandezza_grafico2{
-    min-width: 360px;
+    max-width: 320px;
     display: block;
     margin: 20px auto 15px auto;
     padding: 0px;
   }
+}
 
-}*/
+
+@media only screen and (min-width: 360px) and (max-width: 399px) {
+
+  #grandezza_grafico1{
+    max-width: 360px;
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+  }
+
+  #grandezza_grafico2{
+    max-width: 360px;
+    display: block;
+    margin: 20px auto 15px auto;
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 439px) {
+
+  #grandezza_grafico1{
+    max-width: 400px;
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+  }
+
+  #grandezza_grafico2{
+    max-width: 400px;
+    display: block;
+    margin: 20px auto 15px auto;
+    padding: 0px;
+  }
+}
+
+@media only screen and (min-width: 440px) and (max-width: 479px){
+
+  #grandezza_grafico1{
+    max-width: 440px;
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+  }
+
+  #grandezza_grafico2{
+    max-width: 440px;
+    display: block;
+    margin: 20px auto 15px auto;
+    padding: 0px;
+  }
+}
