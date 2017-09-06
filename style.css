@@ -420,6 +420,11 @@ div.seconda_riga_2 label {
     max-width: 480px;
   }
 
+  #container{
+    width: 100%;
+    min-width: 320px;
+  }
+
   /* LOGO PIU' PICCOLO E CENTRATO */
   #logo {
     height: 90px;
@@ -474,12 +479,17 @@ div.seconda_riga_2 label {
 
   /* RENDO IL DIAGRAM FULL WIDTH */
   .diagramblock {
-    margin: 10px auto 10px auto;
     height: auto;
-    width: auto;
-    padding: 10px 15px 5px 10px;
+    width: 100%;
+    margin: 10px auto 10px auto;
+    padding: 0px;
     display: block;
     position: static;
+  }
+
+  /* CENTRO UN Pò DI PIù GLI ELEMENTI DEL FORM CON DEL PADDING */
+  form{
+    padding: 15px;
   }
 
   /* Metto ogni elemento su una riga e aggiusto i valori */
@@ -504,35 +514,37 @@ div.seconda_riga_2 label {
   div#prima_riga{
     margin: 3px;
     padding: 5px;
+    display: inline-block;
   }
 
   div#seconda_riga{
     margin:3px;
     padding:5px;
+    display: inline-block;
   }
 
   div#terza_riga{
     margin: 10px 3px 3px 3px;
     padding: 5px;
-    font-size: 130%;
     border-top: 0.5px solid #000;
   }
 
   div#quarta_riga{
     margin: 3px 3px 15px 3px;
     padding: 5px;
-    font-size: 130%;
     border-bottom: 0.5px solid #000;
   }
 
   div#prima_riga_1{
     margin: 3px;
     padding: 5px;
+    display: inline-block;
   }
 
   div#seconda_riga_2{
     margin:3px;
     padding:5px;
+    display: inline-block;
   }
 
   div#terza_riga_3{
@@ -546,7 +558,13 @@ div.seconda_riga_2 label {
     font-size: 130%;
   }
 
-  /* STILE DELLE LABEL NEL FORM */
+  /* lo span è aggiunto su tutta la struttura in modo che adesso possa mostrarlo come un blocco in linea */
+  span.riga_checkboxe{
+    display: inline-block;
+    margin-right: 10px;
+  }
+
+  /* STILE DEGLI INPUT NEL FORM */
   label {
     text-align: left;
     font-size: 150%;
@@ -566,6 +584,7 @@ div.seconda_riga_2 label {
     width: 100%;
   }
 
+  /* TOLTO IL FLOAT DAI GRAFICI ALMENO SONO UNO PER RIGA */
   #grafico_1{
     float: none;
     width: 100%;
@@ -578,55 +597,54 @@ div.seconda_riga_2 label {
 
   /* per adesso la grandezza minima dei grafici è 320px (come l'iPhone5) per ottimizzare è meglio modificare l'id per ogni 100 px con media query */
   #grandezza_grafico1{
-    min-width: 320px;
+    max-width: 320px;
     display: block;
     margin: 20px 20px 0px auto;
   }
 
   #grandezza_grafico2{
-    min-width: 320px;
+    max-width: 320px;
     display: block;
     margin: 20px 20px 15px auto;
   }
 
+  /* STILE PER FOOTERWRAP, CENTRATO E MODIFICATA LA MINWIDTH */
+  #footerWrap{
+    width: 98%;
+    padding: 0px;
+    margin: 15px auto 0px auto;
+    border-radius: 10px;
+    min-width: 320px;
+  }
+
+  #footer_text{
+    padding: 15px;
+  }
+
+  #footer_text p{
+    font-size: 13px;
+  }
+
+  #footer_text p.subFoot{
+    font-size: 10px;
+  }
 }
-/*
-@media screen and (max-width:680px) {
 
-    #topmenu li:not(:first-child) {
-        display: none;
-    }
+  /* PER UNA MIGLIORE USER EXPERIENCE DA CELLULARE ALLARGO I GRAFICI AL MASSIMO POSSIBILE */
+/*@media only screen and (min-width: 360px) {
 
-    #topmenu li.icon {
-        float: right;
-        display: inline-block;
-    }
+  #grandezza_grafico1{
+    min-width: 360px;
+    display: block;
+    margin: 20px auto 0px auto;
+    padding: 0px;
+  }
+
+  #grandezza_grafico2{
+    min-width: 360px;
+    display: block;
+    margin: 20px auto 15px auto;
+    padding: 0px;
+  }
 
 }*/
-
-/* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon.
- * This class makes the topnav look good on small screens
-@media screen and (max-width:680px) {
-
-    #topmenu.responsive {
-        position: relative;
-    }
-
-    #topmenu.responsive li.icon {
-        position: absolute;
-        right: 0;
-        top: 0;
-    }
-
-    #topmenu.responsive li {
-        float: none;
-        display: inline;
-    }
-
-    #topmenu.responsive li a {
-        display: block;
-        text-align: left;
-    }
-
-}
-*/

@@ -38,12 +38,12 @@ if (empty($stazione1) && empty($stazione2)) {
 				<input type="date" name="dayfin" value=<?php echo "$dayfin"?>>
 			</div>
 			<div id="terza_riga">
-				<input type="checkbox" name="stazione1" value="yes" style="width:20px;height:20px;" <?php if ($stazione1 == "yes") echo "checked"; ?> > Stazione 1
-				<input type="checkbox" name="stazione2" value="yes" style="width:20px;height:20px;" <?php if ($stazione2 == "yes") echo "checked"; ?> > Stazione 2
+				<span class="riga_checkboxe">	<input type="checkbox" name="stazione1" value="yes" style="width:20px;height:20px;" <?php if ($stazione1 == "yes") echo "checked"; ?> ><label>Stazione 1</label> </span>
+				<span class="riga_checkboxe"> <input type="checkbox" name="stazione2" value="yes" style="width:20px;height:20px;" <?php if ($stazione2 == "yes") echo "checked"; ?> ><label>Stazione 2</label> </span>
 			</div>
 			<div id="quarta_riga">
-				<input type="checkbox" name="stazione3" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione3 == "yes") echo "checked"; ?> > Stazione 3
-				<input type="checkbox" name="stazione4" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione4 == "yes") echo "checked"; ?> > Stazione 4
+				<span class="riga_checkboxe"> <input type="checkbox" name="stazione3" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione3 == "yes") echo "checked"; ?> ><label>Stazione 3</label> </span>
+				<span class="riga_checkboxe"> <input type="checkbox" name="stazione4" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione4 == "yes") echo "checked"; ?> ><label>Stazione 4</label> </span>
 			</div>
 		</div>
 

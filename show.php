@@ -78,12 +78,12 @@ if (empty($stazione1) && empty($stazione2)) {
 				<fieldset>
 					<legend>Selezione sensori</legend>
   				<div class="terza_riga">
-  					<input type="checkbox" name="stazione1" value="yes" style="width:20px;height:20px;" <?php if ($stazione1 == "yes") echo "checked"; ?> > Stazione 1
-  					<input type="checkbox" name="stazione2" value="yes" style="width:20px;height:20px;" <?php if ($stazione2 == "yes") echo "checked"; ?> > Stazione 2
+  					<input type="checkbox" name="stazione1" value="yes" style="width:20px;height:20px;" <?php if ($stazione1 == "yes") echo "checked"; ?> ><label> Stazione 1</label>
+  					<input type="checkbox" name="stazione2" value="yes" style="width:20px;height:20px;" <?php if ($stazione2 == "yes") echo "checked"; ?> ><label> Stazione 2</label>
   				</div>
   				<div class="quarta_riga">
-  					<input type="checkbox" name="stazione3" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione3 == "yes") echo "checked"; ?> > Stazione 3
-  					<input type="checkbox" name="stazione4" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione4 == "yes") echo "checked"; ?> > Stazione 4
+  					<input type="checkbox" name="stazione3" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione3 == "yes") echo "checked"; ?> ><label>Stazione 3</label>
+  					<input type="checkbox" name="stazione4" value="no" disabled style="width:20px;height:20px;" <?php if ($stazione4 == "yes") echo "checked"; ?> ><label>Stazione 4</label>
   				</div>
 				</fieldset>
   		</div>

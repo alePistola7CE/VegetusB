@@ -97,17 +97,19 @@
 
 
 	<div id="footerWrap">
-		<p>"Vegetus - Smart Agriculture Project - aesilab srl</p>
-		<p>Contact information: email: <a href="mailto:info@aesilab.com"> info@aesilab.com </a> mobile: +39 338 9896878</p>
-		<p class = "subFoot">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
-		<p class = "subFoot">Photos designed by <a href="http://www.freepik.com" title="Freepik">Freepik</a> :
-			<a href="http://it.freepik.com/foto-gratuito/serra-con-le-colture-verdi_904138.htm"> 1 </a> -
-			<a href="http://it.freepik.com/foto-gratuito/tempo-di-lavoro-del-giardino_1181236.htm"> 2 </a> -
-			<a href="http://it.freepik.com/foto-gratuito/piantina-nuova-primavera-della-foresta-del-bambino_1150268.htm"> 3 </a> -
-			<a href="http://it.freepik.com/foto-gratuito/grafici-finanziari-con-la-matita-sul-tavolo_1017714.htm"> 4 </a> -
-			<a href='http://it.freepik.com/vettori-gratuito/sirene-della-polizia-vettoriale_746451.htm'>5</a> -
-			<a href="http://it.freepik.com/vettori-gratuito/confezione-di-pulsanti-di-contatto-e-le-icone_1064098.htm">6</a>
-		</p>
+		<div id="footer_text">
+			<p>"Vegetus - Smart Agriculture Project - aesilab srl</p>
+			<p>Contact information: email: <a href="mailto:info@aesilab.com"> info@aesilab.com </a> mobile: +39 338 9896878</p>
+			<p class = "subFoot">Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></p>
+			<p class = "subFoot">Photos designed by <a href="http://www.freepik.com" title="Freepik">Freepik</a> :
+				<a href="http://it.freepik.com/foto-gratuito/serra-con-le-colture-verdi_904138.htm"> 1 </a> -
+				<a href="http://it.freepik.com/foto-gratuito/tempo-di-lavoro-del-giardino_1181236.htm"> 2 </a> -
+				<a href="http://it.freepik.com/foto-gratuito/piantina-nuova-primavera-della-foresta-del-bambino_1150268.htm"> 3 </a> -
+				<a href="http://it.freepik.com/foto-gratuito/grafici-finanziari-con-la-matita-sul-tavolo_1017714.htm"> 4 </a> -
+				<a href='http://it.freepik.com/vettori-gratuito/sirene-della-polizia-vettoriale_746451.htm'>5</a> -
+				<a href="http://it.freepik.com/vettori-gratuito/confezione-di-pulsanti-di-contatto-e-le-icone_1064098.htm">6</a>
+			</p>
+		</div>
 	</div>
 
 
