@@ -600,7 +600,6 @@ div.seconda_riga_2 label {
     width: 100%;
   }
 
-  /* per adesso la grandezza minima dei grafici è 320px (come l'iPhone5) per ottimizzare è meglio modificare l'id per ogni 100 px con media query */
   #grandezza_grafico1{
     max-width: 320px;
     display: block;
@@ -698,6 +697,63 @@ div.seconda_riga_2 label {
     margin:0px auto 30px auto;
   }
 }
+
+/* STILI PER VISUALIZZAZIONE TABLET */
+@media only screen and (min-width: 500px) and (max-width: 1050px){
+
+  /* stili per pagina grafico */
+  span.riga_checkboxe{
+    display: block;
+  }
+
+  #grafico_1{
+    float: none;
+    width: 100%;
+  }
+
+  #grafico_2{
+    float: none;
+    width: 100%;
+  }
+
+  #grandezza_grafico1{
+    display: block;
+    margin: 20px 20px 0px auto;
+  }
+
+  #grandezza_grafico2{
+    display: block;
+    margin: 20px 20px 15px auto;
+  }
+
+  /* stili per pagina informazioni */
+  #informazioni{
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #text{
+    width: 100%;
+    margin: auto;
+  }
+
+  #text h1 {
+    font-size: 190%;
+  }
+
+  #contenitore_vcard{
+    width: 100%;
+    margin: auto;
+  }
+
+  .vcard{
+    float: none;
+    width: 90%;
+    margin:0px auto 50px auto;
+  }
+}
+
 
 /* PER UNA MIGLIORE USER EXPERIENCE DA CELLULARE ALLARGO I GRAFICI AL MASSIMO POSSIBILE */
 
