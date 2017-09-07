@@ -71,7 +71,6 @@ a:hover {
     min-width: 360px;
     margin: 15px auto 0 auto;
     text-align: left;
-	  text-decorationcolor:black;
 }
 
 /* STILE PER LOGO */
@@ -251,6 +250,10 @@ p.subFoot{
   background-color: #fff;
   border: 2px solid #000;
   text-transform: uppercase;
+}
+
+tr:hover {
+  background-color: #d2d2d2;
 }
 
 /* INIZIO STILI PER PAGINA INFORMAZIONI */
@@ -633,11 +636,35 @@ div.seconda_riga_2 label {
   #contenitore_table{
     width: 98%;
     margin: 5px auto 5px auto;
+    max-width: 480px;
+    overflow-x:auto;
   }
 
   #tab_show{
     margin: 15px auto 20px auto;
     width: 98%;
+    max-width: 480px;
+  }
+
+  #tab_show tbody{
+    width: 100%;
+    max-width: 480px;
+  }
+
+  #tab_show tr{
+    width: 99%;
+    max-width: 480px;
+  }
+
+  #tab_show td, #tab_show th{
+    margin: 0px;
+    padding: 0px;
+    font-size: 80%;
+  }
+
+  #tab_show th{
+    padding: 2px;
+    font-size: 75%;
   }
 
   /* STILI PER PAGINA "INFORMAZIONI" */
