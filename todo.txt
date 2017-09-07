@@ -1,7 +1,5 @@
 1-capire se è il primo avvio e mostrare entrambi i grafici o sono state deselezionate entrambe le stazioni META (risolvibile con sessione o cookie)
-4-migliorare con foto informazioni.php
 6-salvataggio preferenze della selezione nel diagram block (risolvibile con cookie o sessione)
-5-sistemare il file style.css
 
 
 

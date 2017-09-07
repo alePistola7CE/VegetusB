@@ -26,8 +26,7 @@ if (empty($stazione1) && empty($stazione2)) {
 	<p class="subtitle">Controllo Parametri "Serra" - Progetto di "Internet of Things"</p>
   <hr>
   <script>
-  function parseGetVars()
-  {
+  function parseGetVars() {
     // creo una array
     var args = new Array();
     var query = window.location.search.substring(1);
@@ -93,7 +92,7 @@ if (empty($stazione1) && empty($stazione2)) {
 					<legend>Selezione parametri</legend>
   				<div class="prima_riga_1">
   					<label>Selezione periodo:</label>
-  					<select name="limit" class="limit">
+  					<select name="limit" id="limit2">
   						<option value="20">Ultime 20 rilevazioni</option>
   						<option value="50">Ultime 50 rilevazioni</option>
   						<option value="g">Giorno</option>
@@ -106,7 +105,7 @@ if (empty($stazione1) && empty($stazione2)) {
 						<div>
   					<label>Parametro</label>
 					</div>
-  					<select name="par[]" class="par" multiple="multiple" size="6">
+  					<select name="par[]" id="par2" multiple="multiple" size="6">
   						<option value="temperature">Temperatura ambiente</option>
   						<option value="humidity">Umidita' ambiente</option>
   						<option value="pressure">Pressione atmosferica</option>
@@ -127,26 +126,25 @@ if (empty($stazione1) && empty($stazione2)) {
 
 
   <script>
-	//va aggiornato non esistono più gli id!!!
-  var elem1 = document.getElementByClassName("limit");
-  var opts1 = elem1[1].options;
-  for (i = 0; i < opts1.length; i++)
-  {
-      if (opts1[i].value == "<?php echo $limit; ?>")
-      {
-          opts1.selectedIndex = i;
-      }
-  }
+	var elem1 = document.getElementById("limit2");
+	var opts1 = elem1.options;
+	for (i = 0; i < opts1.length; i++)
+	{
+	    if (opts1[i].value == "<?php echo $limit; ?>")
+	    {
+	        opts1.selectedIndex = i;
+	    }
+	}
 
-  var elem2 = document.getElementByClassName("par");
-  var opts2 = elem2[1].options;
-  for (i = 0; i < opts2.length; i++)
-  {
-      if (opts2[i].value == "<?php echo $par; ?>")
-      {
-          opts2[i].selected = true;
-      }
-  }
+	var elem2 = document.getElementById("par2");
+	var opts2 = elem2.options;
+	for (i = 0; i < opts2.length; i++)
+	{
+	    if (opts2[i].value == "<?php echo $par; ?>")
+	    {
+	        opts2[i].selected = true;
+	    }
+	}
 
 </script>
 </div>

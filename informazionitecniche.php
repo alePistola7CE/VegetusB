@@ -62,18 +62,7 @@
 	</div>
 
 
-<div id="contenitore_vcard">
-	<div class="vcard" style="clear:left;">
-		<img src="images/alertvcard.png" alt="messaging alert" style="width:100%;">
-		<div class="vcardtext">
-			<h1>REAL TIME ALERT</h1>
-			<br>
-			<ul>
-				<li>Controllo dati ora per ora</li>
-				<li>Rilevamento anomalie automatico</li>
-				<li>Avviso per email immediato</li>
-		</div>
-	</div>
+
 
 
 	<div class="vcard" style="">
@@ -91,22 +80,32 @@
 		</div>
 	</div>
 
-
 	<div class="vcard" style="clear:right;">
 		<img src="images/ondetraspighe.jpg" alt="codice sorgente" style="width:100%;">
 		<div class="vcardtext">
 			<h1>INFORMAZIONI</h1>
 			<br>
-
 			<ul>
-			<li>Smart Agricolture</li>
-			<li>IoT e futuro</li>
-			<li>Controllo dati 24h su 24h</li>
-			<li>Avvertimenti anomalie real time</li>
+				<li>Smart Agricolture</li>
+				<li>IoT e futuro</li>
+				<li>Controllo dati 24h su 24h</li>
+				<li>Avvertimenti anomalie real time</li>
 			</ul>
-
 		</div>
 	</div>
+
+	<div id="contenitore_vcard">
+		<div class="vcard" style="clear:left;">
+			<img src="images/alertvcard.png" alt="messaging alert" style="width:100%;">
+			<div class="vcardtext">
+				<h1>REAL TIME ALERT</h1>
+				<br>
+				<ul>
+					<li>Controllo dati ora per ora</li>
+					<li>Rilevamento anomalie automatico</li>
+					<li>Avviso per email immediato</li>
+			</div>
+		</div>
 
 </div>
 </div>

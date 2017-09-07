@@ -421,11 +421,13 @@ div.seconda_riga_2 label {
   html{
     width: auto;
     max-width: 480px;
+
   }
 
   #container{
     width: 100%;
     min-width: 320px;
+    overflow-x: hidden;
   }
 
   /* LOGO PIU' PICCOLO E CENTRATO */
@@ -668,11 +670,32 @@ div.seconda_riga_2 label {
   }
 
   /* STILI PER PAGINA "INFORMAZIONI" */
+
+
+  #informazioni{
+    width: 96%;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  #text{
+    width: 100%;
+    margin: auto;
+  }
+
+  #text h1 {
+    font-size: 190%;
+  }
+
+  #contenitore_vcard{
+    width: 100%;
+    margin: auto;
+  }
+
   .vcard{
     float: none;
-    display: inline-block;
-    width: 95%;
-    margin-bottom: 15px;
+    width: 90%;
+    margin:0px auto 30px auto;
   }
 }
 
