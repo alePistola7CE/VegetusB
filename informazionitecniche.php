@@ -65,7 +65,7 @@
 
 
 
-	<div class="vcard" style="">
+	<div class="vcard" style="clear:left;">
 	<img src="images/chip.png" alt="materiale e dispense" style="width:100%;">
 		<!-- <img src="images/materiale.jpg" alt="materiale e dispense" style="width:100%"> -->
 		<div class="vcardtext">
@@ -80,7 +80,7 @@
 		</div>
 	</div>
 
-	<div class="vcard" style="clear:right;">
+	<div class="vcard">
 		<img src="images/ondetraspighe.jpg" alt="codice sorgente" style="width:100%;">
 		<div class="vcardtext">
 			<h1>INFORMAZIONI</h1>
@@ -95,7 +95,7 @@
 	</div>
 
 	<div id="contenitore_vcard">
-		<div class="vcard" style="clear:left;">
+		<div class="vcard" style="clear:right;">
 			<img src="images/alertvcard.png" alt="messaging alert" style="width:100%;">
 			<div class="vcardtext">
 				<h1>REAL TIME ALERT</h1>
