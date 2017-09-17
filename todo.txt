@@ -1,8 +1,0 @@
-1-capire se è il primo avvio e mostrare entrambi i grafici o sono state deselezionate entrambe le stazioni META (risolvibile con sessione o cookie)
-6-salvataggio preferenze della selezione nel diagram block (risolvibile con cookie o sessione)
-
-
-
-1-Attenzione al sql! va controllato in php
-2-Ho cambiato un po di immagini e la struttura soprattutto in Dati, ho provato anche a mettere dei <fieldset> sul diagramblock ma quasi sono meglio senza, può tranquillamente toglierli
-3-Le immagini hanno licensa annche commerciale basta citare l'autore (nel footer) anche se nel mio caso ho modificato le foto con il testo quindi forse si potrebbe togliere l'autore ma non ne sono sicuro
